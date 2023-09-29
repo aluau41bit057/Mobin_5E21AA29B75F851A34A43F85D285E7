@@ -25,7 +25,7 @@ class BankAccount:
         print(f"Account Balance for {self._account_holder_name}: ${self._account_balance}")
 
 # Creating an instance of the BankAccount class
-my_account = BankAccount("123456789", "Ahamedjamil", 1000.0)
+my_account = BankAccount("123456789", "mobin", 1000.0)
 
 # Testing deposit and withdrawal functionality
 my_account.display_balance()
